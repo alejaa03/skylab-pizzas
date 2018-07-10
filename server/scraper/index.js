@@ -58,7 +58,6 @@ scraperRouter.route('/')
                     }
                 }
                 res.json({
-                    html: html,
                     status: 'OK',
                     message: 'Pizzas scrapped successfully',
                     data: pizzasFiltered
